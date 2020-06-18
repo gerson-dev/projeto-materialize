@@ -2,8 +2,15 @@
 /* logo */
 
 .brand-logo img{
-    width: 100px;
-    height: 64px;
+    width: 60px;
+    height: 54px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+header nav{
+    position:fixed;
+    z-index: 9999;
 }
 
 
@@ -15,6 +22,7 @@
 }
 .hide-on-med-and-down li a:hover{
     background-color: rgba(255, 255, 255, 0.178);
+    transition: 2s;
 }
 
 
@@ -31,6 +39,7 @@
 .dropdown-content li a:hover{
     background-color:rgba(255, 255, 255, 0.178);
     color: rgb(14, 13, 13);
+    transition: 2s;
 }
 
 
@@ -38,6 +47,12 @@
 .card-penel{
     height: 400px;
 }
+
+.container h3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 
 
 /* menu-mobile */
@@ -48,14 +63,24 @@
 
 .sidenav li a{
     color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.sidenav li a:nth-child(1){
+    margin-top: 50px;
 }
 
 .sidenav li a:hover{
     background-color: gray;
+    transition: 2s;
 }
 
 /* FOOTER */
 
  ul li .grey-text img{
      margin-bottom: 10px;
+ }
+
+ footer{
+     margin-top: 300px;
  }

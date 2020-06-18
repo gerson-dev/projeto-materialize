@@ -42,6 +42,6 @@ $(document).ready(function(){
         interval: 7000,
         duration: 3000,
         height: 450,
-        indicators: false
+        indicators: true
     });
   });
