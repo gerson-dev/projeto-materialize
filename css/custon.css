@@ -2,9 +2,9 @@
 /* logo */
 
 .brand-logo img{
-    width: 60px;
-    height: 54px;
-    margin-top: 3px;
+    width: 65px;
+    height: 60px;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -64,15 +64,25 @@ header nav{
 .sidenav li a{
     color: white;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .sidenav li a:nth-child(1){
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .sidenav li a:hover{
     background-color: gray;
     transition: 2s;
+}
+
+nav{
+    height: 80px;
+}
+
+nav i{
+    font-size: 50px;
+    margin-top: 10px;
+    color:gray;
 }
 
 /* FOOTER */
@@ -84,3 +94,5 @@ header nav{
  footer{
      margin-top: 300px;
  }
+
+ 

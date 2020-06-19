@@ -26,7 +26,13 @@ $(document).ready(function(){
 
 // aciona o menu mobile
   $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $('.sidenav').sidenav({
+      outDuration: 1000,
+      preventScrolling: true,
+      inDuration: 1000,
+      draggable: true
+
+    });
   });
 
 //   aciona o menu dropdown
