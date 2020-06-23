@@ -22,7 +22,7 @@ header nav{
 }
 .hide-on-med-and-down li a:hover{
     background-color: rgba(255, 255, 255, 0.178);
-    transition: 2s;
+    transition: 1s;
 }
 
 
@@ -39,7 +39,7 @@ header nav{
 .dropdown-content li a:hover{
     background-color:rgba(255, 255, 255, 0.178);
     color: rgb(14, 13, 13);
-    transition: 2s;
+    transition: 1s;
 }
 
 
@@ -72,11 +72,15 @@ header nav{
 
 .sidenav li a:hover{
     background-color: gray;
-    transition: 2s;
+    transition: 1s;
 }
 
 nav{
     height: 80px;
+}
+
+nav ul{
+    margin-top: 10px;
 }
 
 nav i{
@@ -92,7 +96,28 @@ nav i{
  }
 
  footer{
-     margin-top: 300px;
+     margin-top: 200px;
  }
+
+
+
+/* css da página sobre nós */
+
+ article .card-sobre{
+     margin-top: 40px;
+ }
+
+ article h1{
+     margin-top: 150px;
+ }
+
+ article .video{
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     margin-bottom: 0;
+ }
+
+ article 
 
  

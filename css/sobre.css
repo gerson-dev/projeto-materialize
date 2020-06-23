@@ -1,0 +1,42 @@
+/* logo */
+
+.brand-logo img{
+    width: 65px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+header nav{
+    position:fixed;
+    z-index: 9999;
+}
+
+
+/* navbar */
+
+.hide-on-med-and-down li a{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.hide-on-med-and-down li a:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    transition: 2s;
+}
+
+
+/* menu-dropdown */
+.dropdown-content{
+    background-color: black;
+    color: white;
+}
+
+.dropdown-content li a{
+    color: white;
+}
+
+.dropdown-content li a:hover{
+    background-color:rgba(255, 255, 255, 0.178);
+    color: rgb(14, 13, 13);
+    transition: 2s;
+}

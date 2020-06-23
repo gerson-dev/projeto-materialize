@@ -51,3 +51,9 @@ $(document).ready(function(){
         indicators: true
     });
   });
+
+  // aciona o efeito na imagem 
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
