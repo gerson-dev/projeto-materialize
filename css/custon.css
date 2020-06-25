@@ -8,10 +8,10 @@
     margin-bottom: 5px;
 }
 
-header nav{
+/* header nav{
     position:fixed;
     z-index: 9999;
-}
+} */
 
 
 /* navbar */
@@ -120,4 +120,14 @@ nav i{
 
  article 
 
+
+ /* css da página departamentos */
  
+ .depar{
+     margin-top: 100px;
+ }
+
+ article img{
+    width: 120px;
+    height: 180px;
+ }
