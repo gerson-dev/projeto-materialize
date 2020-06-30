@@ -25,15 +25,18 @@ $(document).ready(function(){
   });
 
 // aciona o menu mobile
+
   $(document).ready(function(){
     $('.sidenav').sidenav({
-      outDuration: 1000,
+      outDuration: 500,
       preventScrolling: true,
-      inDuration: 1000,
+      inDuration: 500,
       draggable: true
 
     });
   });
+
+
 
 //   aciona o menu dropdown
 
@@ -56,4 +59,20 @@ $(document).ready(function(){
 
   $(document).ready(function(){
     $('.materialboxed').materialbox();
+  });
+
+
+  // modais acampamentos
+
+
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal({
+      dismissible: false, // Modal can be dismissed by clicking outside of the modal
+      opacity: .5, // Opacity of modal background
+      inDuration: 500, // Transition in duration
+      outDuration: 500, // Transition out duration
+      startingTop: '4%', // Starting top style attribute
+      endingTop: '10%'
+    });
   });
