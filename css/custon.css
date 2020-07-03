@@ -169,7 +169,7 @@ nav i{
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 130px;
+     margin-top: 100px;
  }
 
  .modal-dbv{
@@ -184,10 +184,18 @@ nav i{
 
  .atividades li {
     margin-bottom: 10px;
+    font-size: 18px;
  }
 
- article div img{
+ article .contato img{
      width: 40px;
      height: 40px;
      margin-right: 20px;
  }
+
+ .h1_tamanho{
+     font-size: 50px;
+     margin-bottom: 70px
+ }
+
+ 
