@@ -16,6 +16,7 @@ header nav{
 }
 
 
+
 /* navbar */
 
 .hide-on-med-and-down li a{
@@ -46,8 +47,9 @@ header nav{
 
 
 /* main */
-.card-penel{
-    height: 400px;
+.home_card h1{
+    margin-bottom:50px ;
+    font-size: 48px;
 }
 
 .container h3{
@@ -72,11 +74,8 @@ header nav{
     
 }
 
-.sidenav ul{
-    margin-top: 90px;
-}
-.sidenav li a:first-child{
-    margin-top: 70px;
+.sidenav li {
+    margin-top: 67px;
 }
 
 .sidenav li a:hover{
@@ -134,15 +133,15 @@ nav i{
  
  
 
+ .card-image img{
+     height: 180px;
+ }
 
  article img{
-    width: 100px;
-    height: 100px;
+  
  }
 
- article .card{
-     border: 0;
- }
+ 
 
  .caixa{
      margin-top: 150px;
@@ -181,11 +180,14 @@ nav i{
 
  .modal-dbv img{
      margin-right: 10px;
+     width: 150px;
+     height: 150px;
+     
  }
 
  .atividades li {
     margin-bottom: 50px;
-    font-size: 18px;
+    font-size: 15px;
  }
 
  .atividades_img img{
@@ -196,7 +198,7 @@ nav i{
  
  .team{
     margin-bottom: 10px;
-    font-size: 18px; 
+    font-size: 15px; 
  }
 
  .atividades_img{
