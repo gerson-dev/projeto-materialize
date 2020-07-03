@@ -171,6 +171,7 @@ nav i{
      align-items: center;
      margin-top: 100px;
  }
+ 
 
  .modal-dbv{
      display: flex;
@@ -183,8 +184,24 @@ nav i{
  }
 
  .atividades li {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 18px;
+ }
+
+ .atividades_img img{
+     margin-top: 20px;
+     width: 150px;
+ }
+
+ 
+ .team{
+    margin-bottom: 10px;
+    font-size: 18px; 
+ }
+
+ .atividades_img{
+    display: flex;
+    justify-content: center;
  }
 
  article .contato img{
